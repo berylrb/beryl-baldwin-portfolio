@@ -1,6 +1,12 @@
+/* 
+body {
+  background-image: url('img/flower-bg-ani.png');
+} */
+
+
 
 .top-nav{
-  background-color: #f2ebe9;
+  background-color: #fee0e8;
   position: relative;
   display: flex;
   justify-content: center;
@@ -16,10 +22,10 @@
 
 .top-nav a {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   padding: 5px 30px;
   color: #de5499;
-  font-family: 'Coiny', cursive;
+  font-family: 'Fugaz One', cursive;
   text-decoration: none;
 }
 
@@ -30,12 +36,76 @@
 
 
 body {
-  background-color: #eddcd9;
+  background-color: #f6edec;
+  max-height: 100vh;
+  margin: 0 0 -50px 0;
+}
+
+.background {
+  display: flex;
+  position: relative;
+  max-height: 671px;
 }
 
 #home-bg {
+  display: flex;
+  top: -760px;
   position: relative;
-  width: 106.5%;
-  max-width: 100vw;
-  bottom: -40px;
+  width: 100.5%;
+  max-width: 280vw;
+  max-height: 310vh;
+  z-index: -1;
+  /* opacity: 0.9; */
 }
+
+
+.welcome {
+  display: flex;
+  top: -20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  min-height: 100vh;
+  position: relative;
+  min-width: 100vw;
+  margin-left: 40px;
+}
+
+#hi {
+  position: relative;
+  font-size: 120px;
+  font-family: 'Coiny', cursive;
+  color: #e99f4c;
+  right: 190px;
+  /* -webkit-text-stroke: .1px #a76519 */
+}
+
+#beryl {
+  position: relative;
+  top: -270px;
+  left: -85px;
+  font-size: 100px;
+  font-family: 'Coiny', cursive;;
+  font-weight: bold;
+  color: #de5499;
+  -webkit-text-stroke: .1px #cc1e75
+}
+
+
+
+
+/* colors:
+
+pink: #de5499
+
+marigold: #e99f4c
+
+
+bg pink: #fee0e8
+darker bg pink (not in use): #fbcfdb
+
+forest green: #264143
+
+
+*/
