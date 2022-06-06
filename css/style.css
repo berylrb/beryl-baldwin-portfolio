@@ -11,6 +11,8 @@ body {
   display: flex;
   justify-content: center;
   padding: 10px 40px;
+  z-index: 20;
+
 }
 
 .active a{
@@ -25,7 +27,7 @@ body {
   font-size: 20px;
   padding: 5px 30px;
   color: #de5499;
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Coiny', cursive;
   text-decoration: none;
 }
 
@@ -36,7 +38,7 @@ body {
 
 
 body {
-  background-color: #f6edec;
+  background-color: #f9f0ea;
   max-height: 100vh;
   margin: 0 0 -50px 0;
 }
@@ -44,24 +46,25 @@ body {
 .background {
   display: flex;
   position: relative;
-  max-height: 671px;
 }
 
 #home-bg {
   display: flex;
-  top: -760px;
+  top: -800px;
   position: relative;
-  width: 100.5%;
-  max-width: 280vw;
-  max-height: 310vh;
+  width: 99.5%;
+  min-width: 100vw;
+  max-width: 210vw;
+  max-height: 210vh;
+  height:fit-content;
   z-index: -1;
-  /* opacity: 0.9; */
+  opacity: 0.8;
 }
 
 
 .welcome {
   display: flex;
-  top: -20px;
+  top: -130px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -74,28 +77,51 @@ body {
 
 #hi {
   position: relative;
-  font-size: 120px;
+  font-size: 70px;
   font-family: 'Coiny', cursive;
-  color: #e99f4c;
-  right: 190px;
+  color: #cba1ee;
+  left: -30px;
+  bottom: -140px;
   /* -webkit-text-stroke: .1px #a76519 */
 }
 
 #beryl {
   position: relative;
-  top: -270px;
-  left: -85px;
-  font-size: 100px;
-  font-family: 'Coiny', cursive;;
-  font-weight: bold;
-  color: #de5499;
-  -webkit-text-stroke: .1px #cc1e75
+  top: -10px;
+  left: -30px;
+  font-size: 65px;
+  font-family: 'Coiny', cursive;
+  color: #ff65ac;
+  /* -webkit-text-stroke: .1px #cc1e75 */
 }
 
 
 
 
 /* colors:
+
+IN USE:
+
+beige bg: #fff1ee
+
+hot pink text: #ff65ac
+
+light pink text: #ff9ec5
+
+light purple text: #e0c3ea
+
+light bluer purple: #cba1ee
+
+green text: #268056
+
+
+
+
+
+old light pink bg: #f6edec
+
+
+
 
 pink: #de5499
 
