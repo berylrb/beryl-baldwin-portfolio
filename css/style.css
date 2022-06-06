@@ -52,7 +52,7 @@ body {
   display: flex;
   top: -800px;
   position: relative;
-  width: 99.5%;
+  width: 100%;
   min-width: 100vw;
   max-width: 210vw;
   min-height: 768px;
@@ -146,10 +146,25 @@ forest green: #264143
   position:relative;
   top: 90px;
   max-height: 80vh;
-
 }
 
-
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  text-align: center;
+  position: relative;
+  padding: 50px;
+  left: 320px;
+  max-width: 50vw;
+  width: 40vw;
+  overflow-wrap: break-word;
+  font-family: 'Coiny', cursive;
+  top: -450px;
+  color: #ff65ac;
+  font-size: 18px;
+}
 
 
 
