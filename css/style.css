@@ -55,7 +55,8 @@ body {
   width: 99.5%;
   min-width: 100vw;
   max-width: 210vw;
-  max-height: 210vh;
+  min-height: 768px;
+  /* max-height: 210vh; */
   height:fit-content;
   z-index: -1;
   opacity: 0.8;
@@ -64,7 +65,7 @@ body {
 
 .welcome {
   display: flex;
-  top: -130px;
+  top: -70px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -77,19 +78,21 @@ body {
 
 #hi {
   position: relative;
-  font-size: 70px;
+  font-size: 7vw;
   font-family: 'Coiny', cursive;
+  margin-bottom: 30px;
   color: #cba1ee;
   left: -30px;
-  bottom: -140px;
+  /* top: 90px; */
   /* -webkit-text-stroke: .1px #a76519 */
 }
 
 #beryl {
   position: relative;
-  top: -10px;
+  margin-top: -50px;
+  /* top: -10px; */
   left: -30px;
-  font-size: 65px;
+  font-size: 7vw;
   font-family: 'Coiny', cursive;
   color: #ff65ac;
   /* -webkit-text-stroke: .1px #cc1e75 */
