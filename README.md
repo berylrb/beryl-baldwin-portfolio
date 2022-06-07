@@ -6,7 +6,6 @@
 
 ### Here's a sneak peek:
 
-<img align="center" src="/./../beryl-baldwin-portfolio/assets/portfolio-hp-ss.png">
-
+<img align="center" src="https://i.ibb.co/2501X7d/portfolio-hp-ss.png">
 
 
