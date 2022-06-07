@@ -3,7 +3,11 @@ body {
   background-image: url('img/flower-bg-ani.png');
 } */
 
-
+body {
+  background-color: #f7f3ee;
+  max-height: 100vh;
+  margin: 0 0 -50px 0;
+}
 
 .top-nav{
   background-color: #fee0e8;
@@ -37,11 +41,7 @@ body {
 }
 
 
-body {
-  background-color: #f7f3ee;
-  max-height: 100vh;
-  margin: 0 0 -50px 0;
-}
+
 
 .background {
   display: flex;
@@ -130,15 +130,17 @@ forest green: #264143
 
 .about-first {
   max-height:  800px;
+  padding: 20px;
 }
 
 #headshot {
   display: flex;
   position:relative;
-  max-height: 50vh;
+  max-height: 57vh;
   left: 50px;
-  top: -10px;
+  top: 68px;
 }
+
 
 .about-header #meet {
   font-family: 'Coiny', cursive;
@@ -148,6 +150,7 @@ forest green: #264143
   position: relative;
   left: 30px;
   font-size:65px;
+  top: 30px;
 }
 
 .about-header h2 {
@@ -159,7 +162,7 @@ forest green: #264143
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   left: 30px;
-  top: -40px;
+  top: 30px;
   color: #7b64fc
 }
 
@@ -175,10 +178,10 @@ forest green: #264143
   overflow-wrap: break-word;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  top: -420px;
-  left: 410px;
+  top: -400px;
+  left: 440px;
   color: #264143;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 #bio {
@@ -207,7 +210,14 @@ forest green: #264143
 
 
 .about-second {
-  background-color: #cba1ee;
+  background-color: #ffbfdc;
+  max-height: 400px;
+}
+
+
+
+.section-2-bg {
+  max-width: 100vw;
 }
 
 /* colors:

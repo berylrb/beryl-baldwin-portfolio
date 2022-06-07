@@ -15,7 +15,7 @@
 
 // 6) figure out the rest of what i need to do 
 
-
+import 'bootstrap'; 
 
 /*-------------------------------- Constants --------------------------------*/
 
