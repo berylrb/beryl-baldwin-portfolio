@@ -38,7 +38,7 @@ body {
 
 
 body {
-  background-color: #f9f0ea;
+  background-color: #f7f3ee;
   max-height: 100vh;
   margin: 0 0 -50px 0;
 }
@@ -114,27 +114,13 @@ light purple text: #e0c3ea
 light bluer purple: #cba1ee
 
 green text: #268056
-
-
-
-
-
+NOT IN USE
 old light pink bg: #f6edec
-
-
-
-
 pink: #de5499
-
 marigold: #e99f4c
-
-
 bg pink: #fee0e8
 darker bg pink (not in use): #fbcfdb
-
 forest green: #264143
-
-
 */
 
 
@@ -145,30 +131,39 @@ forest green: #264143
   display: flex;
   position:relative;
   top: 90px;
-  max-height: 80vh;
+  max-height: 70vh;
 }
 
-#about-me {
+.about-me {
   display: flex;
   flex-direction: column;
   justify-content: right;
   align-items: right;
-  text-align: center;
+  text-align: left;
   position: relative;
   padding: 50px;
   left: 320px;
-  max-width: 50vw;
-  width: 40vw;
+  max-width: 60vw;
+  width: 55vw;
   overflow-wrap: break-word;
-  font-family: 'Coiny', cursive;
+  font-family: 'Montserrat', sans-serif;
   top: -450px;
-  color: #ff65ac;
+  color: #264143;
   font-size: 18px;
 }
 
+.about-me a {
+  color:  #4164f4;
+  /* font-weight: bold; */
+}
 
+.about-me #bold {
+  font-weight: bold;
+}
 
-
+.about-me strong {
+  display: inline !important;
+}
 
 
 
