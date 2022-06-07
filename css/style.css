@@ -182,7 +182,12 @@ forest green: #264143
 
 .about-me a {
   color:  #4164f4;
+  text-decoration: none;
   /* font-weight: bold; */
+}
+
+.about-me a:hover {
+  color: #fd96bf;
 }
 
 .about-me #bold {
