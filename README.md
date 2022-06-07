@@ -47,4 +47,5 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | Inspiration         | What They Inspired                      | Link to Work                              |
 | ------------------- | --------------------------------------- | ----------------------------------------- |
 | <a href="https://github.com/ManliestBen">ManliestBen</a>          | ReadMe formatting                       | <a href="https://github.com/ManliestBen/ManliestBen/blob/main/README.md#"> Ben's ReadMe.md</a>|
-| Ileriayo            | Language badges, ReadMe table formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme"> Ileriayo's ReadMe.md</a>|
+| <a href="https://github.com/Ileriayo">Ileriayo</a>            | Language badges, ReadMe table formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme"> Ileriayo's ReadMe.md</a>|
+| Denise Chandler     | Adding animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/">Denise Chandler's Portfolio</a>|
