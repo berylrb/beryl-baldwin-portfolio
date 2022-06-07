@@ -127,6 +127,11 @@ forest green: #264143
 /* -------------------------------------------------- */
 /* ABOUT ME */
 
+
+.about-first {
+  max-height:  800px;
+}
+
 #headshot {
   display: flex;
   position:relative;
@@ -171,9 +176,9 @@ forest green: #264143
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   top: -420px;
-  left: 420px;
+  left: 410px;
   color: #264143;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #bio {
@@ -201,7 +206,9 @@ forest green: #264143
 }
 
 
-
+.about-second {
+  background-color: #cba1ee;
+}
 
 /* colors:
 
