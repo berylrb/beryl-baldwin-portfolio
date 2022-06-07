@@ -52,6 +52,8 @@ Additionally, check out the trello board used for planning this portfolio app at
 This portfolio was built to display past and future projects. Some project additions and portfolio enhancements I plan to implement are:
 
 
+
+
 ## Inspiration:
 
 Some elements of this protfolio were inspired by and sourced from the great work of others. 

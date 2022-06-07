@@ -5,7 +5,7 @@ body {
 
 body {
   background-color: #f7f3ee;
-  max-height: 100vh;
+  max-height: 830px;
   margin: 0 0 -50px 0;
 }
 
@@ -30,7 +30,7 @@ body {
   text-align: center;
   font-size: 20px;
   padding: 5px 30px;
-  color: #c596eb;
+  color: #7b64fc;
   font-family: 'Coiny', cursive;
   text-decoration: none;
 }
@@ -40,24 +40,43 @@ body {
   text-decoration: overline;
 }
 
-
-
-
+/* 
 .background {
   display: flex;
   position: relative;
+} */
+/* 
+.home-elements #home-els {
+  height: 100vh !important;
+  max-height: 830px;
+} */
+
+.home-elements {
+  position: relative;
+  background-image: url("../../assets/blob-bg.png");
+  background-size: cover;
 }
+
+
+.bg-class{
+  z-index: -1;
+  min-height: 100vh;
+}
+
 
 #home-bg {
   display: flex;
+  position: relative;
+  flex-direction: column;
   top: -800px;
   position: relative;
   width: 100%;
-  min-width: 100vw;
+  height: 100vh;
+  /* min-width: 100vw;
   max-width: 210vw;
-  min-height: 768px;
+  min-height: 768px; */
   /* max-height: 210vh; */
-  height:fit-content;
+  /* height:fit-content; */
   z-index: -1;
   opacity: 0.8;
 }
@@ -81,7 +100,7 @@ body {
   font-size: 7vw;
   font-family: 'Coiny', cursive;
   margin-bottom: 30px;
-  color: #cba1ee;
+  color: #8874f8;
   left: -30px;
   /* top: 90px; */
   /* -webkit-text-stroke: .1px #a76519 */
@@ -129,17 +148,12 @@ forest green: #264143
 
 
 .about-first {
-  max-height:  800px;
+  max-height:  1000px;
+  min-height: 100vh;
   padding: 20px;
 }
 
-#headshot {
-  display: flex;
-  position:relative;
-  max-height: 57vh;
-  left: 50px;
-  top: 68px;
-}
+
 
 
 .about-header #meet {
@@ -166,22 +180,37 @@ forest green: #264143
   color: #7b64fc
 }
 
+/* .pink {
+  display: flex;
+  position: relative;
+  color: #fd96bf;
+} */
+
+.about {
+  display: flex;
+  align-items: stretch;
+  min-width: 100vw;
+  }
+  
+
+#headshot {
+  position:relative;
+  max-height: 50vh;
+  left: 50px;
+  top: 68px;
+}
+
+
 .about-me{
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: right; */
-  align-items: left;
   text-align: left;
   position: relative;
-  width: 70vw;
-  max-width: 70vw;
   overflow-wrap: break-word;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  top: -400px;
-  left: 440px;
+  font-weight: 500;
+  top: 75px;
+  left: 80px;
   color: #264143;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #bio {
@@ -198,14 +227,6 @@ forest green: #264143
 
 .about-me a:hover {
   color: #fd96bf;
-}
-
-.about-me #bold {
-  font-weight: bold;
-}
-
-.about-me strong {
-  display: inline !important;
 }
 
 
