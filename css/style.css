@@ -295,6 +295,62 @@ WORK */
   background-color: #f5c572;
   color: #7c5002;
 }
+
+
+
+
+
+/* -------------------------------------------------------------------------
+WORK ICONS*/
+
+.soft {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+
+}
+
+.toolbox {
+  margin-top: 100px;
+  margin-left: 80px;
+  height: auto;
+}
+
+.toolbox .icon-container {
+  max-width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 40%;
+  flex-basis: auto;
+  flex-flow: row wrap;
+  flex-shrink: 2;
+  align-items: flex-end;
+}
+
+/* @media (min-width: 600px) {
+  .icon-container .box-icon {
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon-container .box-icon {
+    max-width: 12.5%;
+  }
+} */
+
+
+
+.box-icon {
+  display: flex;
+  max-width: 20%;
+  height: 150px;
+  font-size: 4rem;
+}
+
+
+
+
 /* colors:
 
 IN USE:
