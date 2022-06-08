@@ -13,6 +13,7 @@ body {
   background-color: transparent;
   outline: none;
   border: none;
+  color: #7b64fc;
 
 }
 
@@ -40,6 +41,7 @@ body {
   color: #7b64fc;
   font-family: 'Coiny', cursive;
   text-decoration: none;
+  transition: background-size 400ms;
 }
 
 .top-nav a:hover {
@@ -259,6 +261,7 @@ WORK */
 }
 
 .card-title {
+  color: #00473e;
   text-align: center;
   font-family: 'Coiny', cursive;
 
@@ -270,14 +273,27 @@ WORK */
 }
 
 .btn-primary {
+  background-color: #f86e64;
   transform: translateX(50%);
   font-family: 'Montserrat', sans-serif;
+  border: 1px solid #c2c2c2;
 }
 
+.btn-primary:hover {
+  background-color: #f79b95;
+  color: #702721;
+}
 
 .btn-secondary {
+  background-color: #faae2b;
   transform: translateX(50%);
   font-family: 'Montserrat', sans-serif;
+  border: 1px solid #c2c2c2;
+}
+
+.btn-secondary:hover {
+  background-color: #f5c572;
+  color: #7c5002;
 }
 /* colors:
 
