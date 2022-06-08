@@ -63,7 +63,7 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | <a href="https://github.com/ManliestBen">ManliestBen</a>          | ReadMe formatting                       | <a href="https://github.com/ManliestBen/ManliestBen/blob/main/README.md#"> Ben's ReadMe.md</a>|
 | <a href="https://github.com/Ileriayo">Ileriayo</a>            | Language badges, ReadMe table formatting, ReadMe table of contents formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme"> Ileriayo's ReadMe.md</a>|
 | Denise Chandler     | Idea to add an animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/">Denise Chandler's Portfolio</a>|
-| <a href="https://devicon.dev/">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/">Devicon site</a>|
+| <a href="https://github.com/devicons/devicon/">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/">Devicon site</a>|
 | Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
 
 
