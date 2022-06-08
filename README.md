@@ -22,9 +22,9 @@ This portfolio provides a professional representation of my (Beryl) skills, proj
 
 ## Getting Started:
 
-Visit the portfolio app at <a href="https://beryl-baldwin-portfolio.netlify.app/home.html" target="_blank">.
+Visit the portfolio app at <a href="https://beryl-baldwin-portfolio.netlify.app/home.html" target="_blank">https://beryl-baldwin-portfolio.netlify.app/home.html</a>.
 
-Additionally, check out the trello board used for planning this portfolio app at <a href="https://trello.com/b/9wYlJKjg/beryl-baldwin-portfolio" target="_blank">.
+Additionally, check out the trello board used for planning this portfolio app at <a href="https://trello.com/b/9wYlJKjg/beryl-baldwin-portfolio" target="_blank">https://trello.com/b/9wYlJKjg/beryl-baldwin-portfolio" target="_blank</a>.
 
 
 ## Screenshot
