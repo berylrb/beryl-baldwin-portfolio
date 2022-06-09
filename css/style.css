@@ -1,7 +1,7 @@
 
 #hamburger-nav {
   width: 100%;
-  background: #7b64fc;
+  background: #8c78ff;
 }
 
 #hamburger-links { display: flex; }
@@ -27,14 +27,14 @@
     box-sizing: border-box;
     display: block;
     width: 100%;
-    border-top: 1px solid #7b64fc;
+    border-top: 1px solid #8c78ff;
 
   }
 
   #hamburger-nav label { 
     display: inline-block; 
     color: white;
-    background: #7b64fc;
+    background: #8c78ff;
     font-style: normal;
     font-size: 1.9em;
     padding: 10px;
@@ -62,7 +62,7 @@ body {
 }
 
 .dropdown-item {
-  background-color: #7b64fc;
+  background-color: #8c78ff;
 }
 
 .dropdown-item:hover {
@@ -243,12 +243,16 @@ body {
   min-width: 100vw;
   }
   
+  .about p {
+    top: 9vh;
+  }
 
 #headshot {
   position:relative;
   max-width: 35vw;
   left: 50px;
   top: 68px;
+  object-fit: contain;
 }
 
 
@@ -278,6 +282,27 @@ body {
 
 .about-me a:hover {
   color: #fd96bf;
+}
+
+#beliefs {
+  font-family: 'Montserrat', sans-serif;
+  max-height: 40vh;
+  position: relative;
+  display: inline-block;
+  font-size: 1.5vw;
+  top: -8vh;
+  left: 50vw;
+  width: 40vw;
+  right: 20px;
+  font-weight: 500;
+  color:#f7f3ee;
+  border: .4vw solid #2850f1;
+  background: #82b4ff;
+}
+
+#beliefs h7 {
+  margin: 2.7vw;
+  font-weight: 600;
 }
 
 
