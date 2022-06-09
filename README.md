@@ -72,7 +72,7 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
 | Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/">Img bb</a>|
 | David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r all iceman 2 me |
-|Note: | all other sources credited in the css file | thank u |
+|MightyForms| pre-made contact form for Contact page | <a href="https://app.mightyforms.com/">MightyForms</a> |
 
 
 [Back to Top](#readme-table-of-contents)
