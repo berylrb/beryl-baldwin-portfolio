@@ -72,7 +72,6 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | <a href="https://github.com/Ileriayo" target="_blank">Ileriayo</a>            | Language badges, ReadMe table formatting, ReadMe table of contents formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme" target="_blank"> Ileriayo's ReadMe.md</a>|
 | Denise Chandler     | Idea to add an animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/" target="_blank">Denise Chandler's Portfolio</a>|
 | <a href="https://github.com/devicons/devicon/" target="_blank">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/" target="_blank">Devicon site</a>|
-| Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris" target="_blank">Becris's flaticon Library</a>|
 | Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/" target="_blank">Img bb</a>|
 | David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r all iceman 2 me |
 |Bootstrap Forms| Bootstrap custom contact form generator | <a href="https://bootstrapformbuilder.com/" target="_blank">Bootstrap Forms</a> |
