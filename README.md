@@ -60,6 +60,7 @@ This portfolio was built to display past and future projects. Some project addit
 - create good egg app
 - add portfolio of illustrations and animations
 - add loading animation for home page
+- fix @media alignment on contact page for socials icons
 
 
 ## Inspiration:
