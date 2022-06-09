@@ -450,20 +450,83 @@ WORK ICONS*/
 /* ---------------------------------------------------
 CONTACT PAGE */
 
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  margin-top: 67px;
+  max-width: 70vw;
+  text-align: center;
+  color: #f7f3ee;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+#contact-subhead {
+  font-size: 2.6vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50vw;
+}
+
+.form-group label {
+  color: #f7f3ee;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+#name, #email, #textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+
+.btn-submit {
+  background-color:#fc79ae;
+  color:#f7f3ee;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: #f7f3ee 2px solid; 
+  transition-duration: .4s;
+}
+
+.btn-submit:hover {
+  background-color: #f8bbd3;
+  color:#fd4d93;
+}
+
+
+
 .contact-body {
-  background-color: #7b64fc;
+  background-color: #7159f9;
 }
 
 .contact-wrapper {
+  top: 10vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  background-color: #7b64fc;
+  background-color: #7159f9;
 }
 
 
 .contact-links {
-  background-color: #7b64fc;
+  background-color: #7159f9;
   /* margin-left: 80px; */
   max-width: 60vw;
   max-height: 10vh;
@@ -473,6 +536,7 @@ CONTACT PAGE */
   justify-content: center;
   flex-direction: row;
   flex-flow: row wrap;
+  
 }
 
 
@@ -488,6 +552,8 @@ CONTACT PAGE */
   height: 20vh;
   font-size: 7vh;
   text-align: center;
-  background-color: #7b64fc;
+  background-color: #7159f9;
   color: #FFFFFF;
+  margin-left: 30px;
 }
+
