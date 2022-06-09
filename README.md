@@ -31,7 +31,7 @@ Additionally, check out the trello board used for planning this portfolio app at
 
 <div align="center">
 <h3>Here's a sneak peek:</h3>
-<img align="center" src="https://i.ibb.co/2501X7d/portfolio-hp-ss.png">
+<img align="center" src="https://i.ibb.co/BzrSzg3/home-ss.png">
 </div>
 <br>
 <br>
@@ -65,6 +65,7 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | Denise Chandler     | Idea to add an animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/">Denise Chandler's Portfolio</a>|
 | <a href="https://github.com/devicons/devicon/">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/">Devicon site</a>|
 | Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
+| Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/">Img bb</a>|
 
 
 [Back to Top](#readme-table-of-contents)
