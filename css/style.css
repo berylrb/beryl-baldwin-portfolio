@@ -93,7 +93,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(250, 247, 244, .9);
+  background-color: rgba(253, 246, 239, 0.948);
+  max-width: 45vw;
   border: 1.3vmin solid;
   --angle: 0deg;
   border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
@@ -132,7 +133,7 @@ body {
 #hi, #beryl {
   top: 10px;
   position: relative;
-  font-size: 9vw !important;
+  font-size: 6vw !important;
 }
 
 #beryl {
@@ -143,22 +144,76 @@ body {
 #hi {
   position: relative;
   font-size: 5vw;
-  font-family: 'Coiny', cursive;
+  font-family: 'DM Serif Display', serif;
   margin-bottom: 30px;
-  color: #8874f8;
+  color: #664bff;
   text-align: center;
   padding-top: 20px;
 }
+
 
 #beryl {
   position: relative;
   margin-top: -50px;
   text-align: center;
   font-size: 5vw;
-  font-family: 'Coiny', cursive;
-  color: #fd96bf;
+  font-family: 'DM Serif Display', serif;
+  color: #fc65a1;
   padding: 30px;
 }
+
+@media screen and (max-width: 768px) {
+
+  #hi, #beryl {
+    top: 10px;
+    position: relative;
+    font-size: 14vw !important;
+  }
+
+  #beryl {
+    padding: 20px;
+    margin: 0 20px 0 20px;
+  }
+
+  #hi {
+    position: relative;
+    font-size: 5vw;
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 30px;
+    color: #664bff;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  #beryl {
+    position: relative;
+    margin-top: -50px;
+    text-align: center; 
+    font-family: 'DM Serif Display', serif;
+    color: #fc65a1;
+    padding: 30px;
+  }
+
+
+
+  #smol-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(253, 246, 239, 0.948);
+    max-width: 90vw;
+    border: 1.9vmin solid;
+    --angle: 0deg;
+    border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
+    animation: 10s rotate linear infinite;
+  }
+
+}
+
+
+
 
 
 
@@ -190,8 +245,8 @@ body {
   text-align: center;
   position: relative;
   display: flex;
-  font-size: 2.5vh;
-  width: 87vw;
+  font-size: 3vh;
+  width: 90vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   left: 2vw;
@@ -344,7 +399,7 @@ body {
     padding-left: 20px; 
     font-size: 2.5vw;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 00;
     left: 30px;
     top: 30px;
     color: #7b64fc
@@ -572,6 +627,7 @@ CONTACT PAGE */
 
 #contact-subhead h4{
   font-size: 2.6vh;
+  width: 65vw;
 }
 
 
@@ -598,6 +654,7 @@ form {
 }
 
 .btn-submit {
+  width: 50vw;
   background-color:#fc79ae;
   color:#f7f3ee;
   margin-top: 10px;
@@ -619,7 +676,7 @@ form {
 }
 
 .contact-wrapper {
-  top: 10vh;
+  top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -654,10 +711,58 @@ form {
   justify-content: center;
   width: 50%;
   height: 20vh;
-  font-size: 7vh;
+  font-size: 9vh;
   text-align: center;
   background-color: #7159f9;
   color: #FFFFFF;
   margin-left: 30px;
 }
+
+@media (min-width: 768px) {
+
+
+
+  #contact-subhead h4{
+    font-size: 1vh;
+    width: 65vw;
+  }
+
+  .contact-links {
+    background-color: #7159f9;
+    max-width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+  }
+  
+  
+  .contact-links i {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vh;
+    text-align: center;
+    background-color: #7159f9;
+    color: #FFFFFF;
+    margin-left: 30px;
+  }
+
+
+  .contact-wrapper {
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #7159f9;
+
+  }
+} 
 

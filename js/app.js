@@ -17,12 +17,12 @@
 
 // import 'bootstrap'; 
 
-function invertHex(hex) {
-  let newColor =(Number(`0x1${hex}`) ^ 0xFFFFFF).toString(16)
-  return newColor.substr(1).toUpperCase()
-}
+// function invertHex(hex) {
+//   let newColor =(Number(`0x1${hex}`) ^ 0xFFFFFF).toString(16)
+//   return newColor.substr(1).toUpperCase()
+// }
 
-invertHex('00FF00');
+// invertHex('00FF00');
 
 
 
