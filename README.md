@@ -72,7 +72,8 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
 | Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/">Img bb</a>|
 | David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r all iceman 2 me |
-|MightyForms| pre-made contact form for Contact page | <a href="https://app.mightyforms.com/">MightyForms</a> |
+|Bootstrap Forms| pre-made contact form for Contact page | <a href="https://bootstrapformbuilder.com/">Bootstrap Forms</a> |
+| <a href="https://github.com/hyweljohnllewellyn">Hywel Llewelyn</a> | form integration blog post (very helpful!) | <a href="https://www.hywel.me/sites/2021/11/15/website-page-with-contact-form-using-html-github-and-netlify.html">Hywel's post</a> |
 
 
 [Back to Top](#readme-table-of-contents)
