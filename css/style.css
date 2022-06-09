@@ -1,12 +1,57 @@
-/* 
-body {
-  background-image: url('img/flower-bg-ani.png');
-} */
+
+#hamburger-nav {
+  width: 100%;
+  background: #7b64fc;
+}
+
+#hamburger-links { display: flex; }
+#hamburger-links a {
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  padding: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+}
+
+#hamburger-links a:hover { transform: scale(1.2); }
+
+#hamburger-nav label, #hamburger { display: none; }
+
+@media screen and (max-width: 768px){
+  #hamburger-links a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #7b64fc;
+
+  }
+
+  #hamburger-nav label { 
+    display: inline-block; 
+    color: white;
+    background: #7b64fc;
+    font-style: normal;
+    font-size: 1.9em;
+    padding: 10px;
+  }
+
+  #hamburger-links { display: none; }
+  #hamburger-nav input:checked ~ #hamburger-links { display: block; }
+}
+
+/* hamburger from here "https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/" */
 
 body {
   background-color: #f7f3ee;
   max-height: 830px;
-  margin: 0 0 -50px 0;
+  margin: 0 0 0 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 #dropdownMenuLink {
@@ -14,9 +59,19 @@ body {
   outline: none;
   border: none;
   color: #7b64fc;
-
 }
 
+.dropdown-item {
+  background-color: #7b64fc;
+}
+
+.dropdown-item:hover {
+  background-color: #7b64fc;
+  transform: none;
+}
+
+
+/* 
 .top-nav{
   background-color: #fee0e8;
   position: relative;
@@ -34,7 +89,7 @@ body {
 
 
 
-.top-nav a {
+/* .top-nav a {
   text-align: center;
   font-size: 2.2vw;
   padding: 5px 30px;
@@ -42,12 +97,13 @@ body {
   font-family: 'Coiny', cursive;
   text-decoration: none;
   transition: background-size 400ms;
-}
+} */
 
-.top-nav a:hover {
+/* .top-nav a:hover {
   color: #ff9ec5;
   text-decoration: overline;
-}
+  transform: scale(1.2);
+} */ 
 
 
 .home-elements {
@@ -58,7 +114,7 @@ body {
   width: 101vw;
   height: 100vh;
   z-index: -1;
-  opacity: 0.94;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1174px) {
@@ -95,11 +151,11 @@ body {
     position: relative;
   }
 
-  #smol-div {
+  /* #smol-div {
     opacity: .95;
-    border-radius: 20px;
+    border-radius: 20px; */
     /* border: 15px solid pink; */
-  }
+
 
   /* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     #smol-div {
@@ -108,47 +164,35 @@ body {
       backdrop-filter: blur(3px);
     }
   } */
-
 }
+
 
 #smol-div {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #faf7f4;
   opacity: .95;
-  /* --angle: 10deg;
-	width: 60vmin;
-	height: 40vmin;
-	border: 1.7vmin solid;
-	border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
-
+  border: 2vmin solid;
+  --angle: 0deg;
+  border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
 	animation: 10s rotate linear infinite;
-  align-items: center;
-  justify-content: center; */
 }
 
-/* @keyframes animatedgradient { */
-	/* to {
+@keyframes rotate {
+	to {
 		--angle: 360deg;
-	} */
-  /* 0% {
-		background-position: 0% 50%;
 	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
-/* } */
-/* 
+}
+
+
 @property --angle {
   syntax: '<angle>';
   initial-value: 0deg;
   inherits: false;
-} */
+}
 
 /* credit to: "https://codepen.io/bramus/pen/rNWByYz" */
 
@@ -205,8 +249,6 @@ body {
   position: relative;
   margin-top: -50px;
   text-align: center;
-  /* top: -10px; */
-  /* left: -30px; */
   font-size: 5vw;
   font-family: 'Coiny', cursive;
   color: #fd96bf;
@@ -214,30 +256,6 @@ body {
   /* -webkit-text-stroke: .1px #cc1e75 */
 }
 
-
-/* colors:
-
-IN USE:
-
-beige bg: #fff1ee
-
-hot pink text: #ff65ac
-
-light pink text: #ff9ec5
-
-light purple text: #e0c3ea
-
-light bluer purple: #cba1ee
-
-green text: #268056
-NOT IN USE
-old light pink bg: #f6edec
-pink: #de5499
-marigold: #e99f4c
-bg pink: #fee0e8
-darker bg pink (not in use): #fbcfdb
-forest green: #264143
-*/
 
 
 /* -------------------------------------------------- */

@@ -16,7 +16,22 @@
 // 6) figure out the rest of what i need to do 
 
 // import 'bootstrap'; 
+const generateCSS = () => {
+	let css = '@keyframes rotate {';
+	for (let i = 0; i <= 100; i++) {
+		css = `${css}
+  ${i}% { border-image: conic-gradient(from ${(360 * i / 100).toFixed(2)}deg, red, yellow, lime, aqua, blue, magenta, red) 1; }`;
+	}
 
+	return `${css}
+	}`;
+}
+
+const injectCSS = (css) => {
+	const style = document.createElement('style');
+	style.innerHTML = css;
+	document.head.appendChild(style);
+}
 
 import { projectData } from "../my-projects.js"
 
