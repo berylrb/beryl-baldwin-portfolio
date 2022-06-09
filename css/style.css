@@ -227,7 +227,7 @@ body {
   font-size: 2.5vh;
   width: 87vw;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   left: 2vw;
   top: 3vh;
   color: #7b64fc
@@ -269,7 +269,7 @@ body {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  width: 95vw;
+  width: 87vw;
   text-align: center;
   padding: 20px;
   top: 20vh;
@@ -324,14 +324,39 @@ body {
 
 
 @media (min-width: 768px) {
-  #headshot {
-    position:relative;
-    max-height: 45vh;
-    left: 50px;
-    top: 68px;
-    object-fit: contain;
+  .about-first {
+    top: 3vh;
+    position: relative;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .about {
+    display: flex;
+    min-width: 100vw;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    max-width: 90vw;
     }
 
+  #headshot {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 32vw;
+    top: 68px;
+    left: 5vw;
+    object-fit: contain;
+    border-radius: 120px;
+    }
+
+      
+  .about p {
+    top: 9vh;
+  }
   
 
   .about-header #meet {
@@ -351,7 +376,7 @@ body {
     display: flex;
     padding-right: 60px; 
     padding-left: 20px; 
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     left: 30px;
@@ -359,20 +384,17 @@ body {
     color: #7b64fc
     }
 
-  .about {
-    display: flex;
-    align-items: stretch;
-    min-width: 100vw;
-    }
-    
-  .about p {
-      top: 9vh;
-    }
+  
+  
 
   #bio {
+      position: relative;
+      font-size: 1.6vw;
+      text-align: left;
       display: inline-block;
-      width: 45vw;
-      right: 20px;
+      width: 50vw;
+      top: 5vh;
+      margin-left: 10vw;
     }
   }
 
