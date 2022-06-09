@@ -54,13 +54,13 @@ Additionally, check out the trello board used for planning this portfolio app at
 
 This portfolio was built to display past and future projects. Some project additions and portfolio enhancements I plan to implement are:
 
-- minor css adjustments
-- add more small custom animations
-- build and include more games
-- create good egg app
-- add portfolio of illustrations and animations
-- add loading animation for home page
-- fix @media alignment on contact page for socials icons
+- [ ] minor css adjustments
+- [ ] add more small custom animations
+- [ ] build and include more games
+- [ ] create good egg app
+- [ ] add portfolio of illustrations and animations
+- [ ] add loading animation for home page
+- [ ] fix @media alignment on contact page for socials icons
 
 
 ## Inspiration:

@@ -16,6 +16,7 @@
   font-weight: 500;
   text-decoration: none;
   text-align: center;
+  font-size: 1.8vh;
 }
 
 #hamburger-links a:hover { transform: scale(1.2); }
@@ -73,41 +74,6 @@ body {
 }
 
 
-/* 
-.top-nav{
-  background-color: #fee0e8;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  padding: 10px 40px;
-  z-index: 20;
-
-}
-
-.active a{
-  text-decoration: underline;
-}
-/* want to make only the current page be underlined in menu */
-
-
-
-/* .top-nav a {
-  text-align: center;
-  font-size: 2.2vw;
-  padding: 5px 30px;
-  color: #7b64fc;
-  font-family: 'Coiny', cursive;
-  text-decoration: none;
-  transition: background-size 400ms;
-} */
-
-/* .top-nav a:hover {
-  color: #ff9ec5;
-  text-decoration: overline;
-  transform: scale(1.2);
-} */ 
-
-
 .home-elements {
   display: flex;
   position: relative;
@@ -128,7 +94,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(250, 247, 244, .9);
-  border: 1.5vmin solid;
+  border: 1.3vmin solid;
   --angle: 0deg;
   border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
 	animation: 10s rotate linear infinite;

@@ -16,22 +16,17 @@
 // 6) figure out the rest of what i need to do 
 
 // import 'bootstrap'; 
-const generateCSS = () => {
-	let css = '@keyframes rotate {';
-	for (let i = 0; i <= 100; i++) {
-		css = `${css}
-  ${i}% { border-image: conic-gradient(from ${(360 * i / 100).toFixed(2)}deg, red, yellow, lime, aqua, blue, magenta, red) 1; }`;
-	}
 
-	return `${css}
-	}`;
+function invertHex(hex) {
+  let newColor =(Number(`0x1${hex}`) ^ 0xFFFFFF).toString(16)
+  return newColor.substr(1).toUpperCase()
 }
 
-const injectCSS = (css) => {
-	const style = document.createElement('style');
-	style.innerHTML = css;
-	document.head.appendChild(style);
-}
+invertHex('00FF00');
+
+
+
+
 
 import { projectData } from "../my-projects.js"
 
