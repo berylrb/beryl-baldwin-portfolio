@@ -167,7 +167,7 @@ body {
   #hi, #beryl {
     top: 10px;
     position: relative;
-    font-size: 14vw !important;
+    font-size: 13vw !important;
   }
 
   #beryl {
@@ -197,12 +197,15 @@ body {
 
 
   #smol-div {
+    top: -4vh;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(253, 246, 239, 0.948);
+    height: 35vh;
+    width: 80vw;
     max-width: 90vw;
     border: 1.9vmin solid;
     --angle: 0deg;
