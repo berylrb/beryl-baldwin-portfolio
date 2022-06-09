@@ -65,15 +65,15 @@ Some elements of this protfolio were inspired by and sourced from the great work
 
 | Inspiration/Source         | What They Inspired/Informed                      | Link to Work                              |
 | ------------------- | --------------------------------------- | ----------------------------------------- |
-| <a href="https://github.com/ManliestBen">ManliestBen</a>          | ReadMe formatting                       | <a href="https://github.com/ManliestBen/ManliestBen/blob/main/README.md#"> Ben's ReadMe.md</a>|
-| <a href="https://github.com/Ileriayo">Ileriayo</a>            | Language badges, ReadMe table formatting, ReadMe table of contents formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme"> Ileriayo's ReadMe.md</a>|
-| Denise Chandler     | Idea to add an animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/">Denise Chandler's Portfolio</a>|
-| <a href="https://github.com/devicons/devicon/">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/">Devicon site</a>|
-| Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
-| Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/">Img bb</a>|
+| <a href="https://github.com/ManliestBen" target="_blank">ManliestBen</a>          | ReadMe formatting                       | <a href="https://github.com/ManliestBen/ManliestBen/blob/main/README.md#" target="_blank"> Ben's ReadMe.md</a>|
+| <a href="https://github.com/Ileriayo" target="_blank">Ileriayo</a>            | Language badges, ReadMe table formatting, ReadMe table of contents formatting| <a href="https://github.com/Ileriayo/markdown-badges#readme" target="_blank"> Ileriayo's ReadMe.md</a>|
+| Denise Chandler     | Idea to add an animated background; courage to have a "girly" portfolio| <a href="https://denisechandler.com/" target="_blank">Denise Chandler's Portfolio</a>|
+| <a href="https://github.com/devicons/devicon/" target="_blank">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/" target="_blank">Devicon site</a>|
+| Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris" target="_blank">Becris's flaticon Library</a>|
+| Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/" target="_blank">Img bb</a>|
 | David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r all iceman 2 me |
-|Bootstrap Forms| Bootstrap custom contact form generator | <a href="https://bootstrapformbuilder.com/">Bootstrap Forms</a> |
-| <a href="https://github.com/hyweljohnllewellyn">Hywel Llewelyn</a> | form integration blog post (very helpful!) | <a href="https://www.hywel.me/sites/2021/11/15/website-page-with-contact-form-using-html-github-and-netlify.html">Hywel's post</a> |
+|Bootstrap Forms| Bootstrap custom contact form generator | <a href="https://bootstrapformbuilder.com/" target="_blank">Bootstrap Forms</a> |
+| <a href="https://github.com/hyweljohnllewellyn" target="_blank">Hywel Llewelyn</a> | form integration blog post (very helpful!) | <a href="https://www.hywel.me/sites/2021/11/15/website-page-with-contact-form-using-html-github-and-netlify.html" target="_blank">Hywel's post</a> |
 
 
 [Back to Top](#readme-table-of-contents)
