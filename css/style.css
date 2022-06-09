@@ -436,6 +436,7 @@ WORK */
   transform: translateX(50%);
   font-family: 'Montserrat', sans-serif;
   border: 1px solid #c2c2c2;
+  transition-duration: .4s;
 }
 
 .btn-primary:hover {
@@ -448,6 +449,7 @@ WORK */
   transform: translateX(50%);
   font-family: 'Montserrat', sans-serif;
   border: 1px solid #c2c2c2;
+  transition-duration: .4s;
 }
 
 .btn-secondary:hover {
