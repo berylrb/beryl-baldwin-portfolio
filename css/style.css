@@ -94,7 +94,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(253, 246, 239, 0.948);
-  max-width: 45vw;
+  min-height: 40vh;
+  min-width: 48vw;
   border: 1.3vmin solid;
   --angle: 0deg;
   border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
@@ -133,7 +134,7 @@ body {
 #hi, #beryl {
   top: 10px;
   position: relative;
-  font-size: 6vw !important;
+  font-size: 8vw !important;
 }
 
 #beryl {
@@ -223,6 +224,9 @@ body {
 /* -------------------------------------------------- */
 /* ABOUT ME */
 
+.about-body {
+  background-color: #fe9f9f;
+}
 
 .about-first {
   position: relative;
@@ -234,8 +238,8 @@ body {
 
 .about-header h1 {
   text-align: center;
-  font-family: 'Coiny', cursive;
-  color: #65b5ff;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
   display: flex;
   position: relative;
   font-size: 7.2vh;
@@ -250,11 +254,11 @@ body {
   display: flex;
   font-size: 3vh;
   width: 90vw;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 600;
   left: 2vw;
   top: 3vh;
-  color: #7b64fc
+  color: #654cf5;
 }
 
 
@@ -285,6 +289,7 @@ body {
   object-fit: contain;
   border-radius: 120px;
   opacity: .98;
+  border: rgb(250, 247, 243, .8) .6vw solid;
 }
 
 
@@ -297,6 +302,7 @@ body {
   text-align: center;
   padding: 20px;
   top: 20vh;
+  color: #ffffff;
 }
 
 
@@ -384,13 +390,13 @@ body {
   
 
   .about-header #meet {
-    font-family: 'Coiny', cursive;
-    color: #65b5ff;
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
     display: flex;
     padding-left: 20px;
     position: relative;
     left: 30px;
-    font-size: 7vw;
+    font-size: 8vw;
     top: 30px;
     }
 
@@ -400,12 +406,13 @@ body {
     display: flex;
     padding-right: 60px; 
     padding-left: 20px; 
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-weight: 00;
     left: 30px;
     top: 30px;
-    color: #7b64fc
+    color: #057171;
     }
 
   
@@ -413,12 +420,13 @@ body {
 
   #bio {
       position: relative;
-      font-size: 1.6vw;
+      font-size: 1.7vw;
+      font-weight: 500;
       text-align: left;
       display: inline-block;
       width: 50vw;
       top: 5vh;
-      margin-left: 10vw;
+      margin-left: 8vw;
     }
   }
 
