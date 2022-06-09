@@ -51,7 +51,12 @@ Additionally, check out the trello board used for planning this portfolio app at
 
 This portfolio was built to display past and future projects. Some project additions and portfolio enhancements I plan to implement are:
 
-
+- minor css adjustments
+- add more small custom animations
+- build and include more games
+- create good egg app
+- add portfolio of illustrations and animations
+- add loading animation for home page
 
 
 ## Inspiration:
@@ -66,6 +71,7 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | <a href="https://github.com/devicons/devicon/">Devicon</a>    | Icons used in the 'Tools & Skills' section of Work page | <a href="https://devicon.dev/">Devicon site</a>|
 | Becris's flaticon library    | Responsive web design icon for 'Tools & Skills' section        | <a href="https://www.flaticon.com/authors/becris">Becris's flaticon Library</a>|
 | Img bb    | Hosting screenshot in this readme | <a href="https://imgbb.com/">Img bb</a>|
+| David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r ice man 2 me |
 
 
 [Back to Top](#readme-table-of-contents)
