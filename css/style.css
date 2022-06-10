@@ -168,7 +168,7 @@ body {
   #hi, #beryl {
     top: 10px;
     position: relative;
-    font-size: 13vw !important;
+    font-size: 11vw !important;
   }
 
   #beryl {
@@ -205,10 +205,10 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(253, 246, 239, 0.948);
-    height: 35vh;
-    width: 80vw;
-    max-width: 90vw;
-    border: 1.9vmin solid;
+    height: 4vh;
+    max-height: 15vh;
+    max-width: 70vw;
+    border: 2.6vmin solid;
     --angle: 0deg;
     border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
     animation: 10s rotate linear infinite;
