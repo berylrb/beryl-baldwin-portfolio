@@ -54,7 +54,7 @@ function stopWave(evt) {
 
 
 
-import { projectData } from "../my-projects.js"
+import { projectData } from "./my-projects.js"
 
 
 
@@ -81,7 +81,7 @@ let projectMarkup = projectData.map(project =>
 }
 
 
-import { carousel } from "../my-projects.js"
+import { carousel } from "./my-projects.js"
 
 if (window.location.href == host + 'about.html') {
   const carouselContainer = document.querySelector('#carousel-container')
