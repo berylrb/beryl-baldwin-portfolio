@@ -1,7 +1,6 @@
 import { carousel } from "../js/my-projects.js"
 
-if (window.location.href == host + 'about.html') {
-  const carouselContainer = document.querySelector('#carousel-container')
+const carouselContainer = document.querySelector('#carousel-container')
 
 let carouselMarkup = carousel.map(frame => 
 `
@@ -43,4 +42,4 @@ let carouselMarkup = carousel.map(frame =>
 ).join('')
 
 carouselContainer.innerHTML = carouselMarkup
-}
+
