@@ -138,7 +138,6 @@ body {
 }
 
 #hand-div {
-
   display: flex;
   position: relative;
   max-height: 11vh;
@@ -153,10 +152,6 @@ body {
   /* font-size: 5vw !important; */
 }
 
-/* #beryl {
-  padding: 20px;
-  margin: 0 20px 0 20px;
-} */
 
 #three-items {
   display: flex;
@@ -187,8 +182,8 @@ body {
 
 #beryl {
   position: relative;
-  /* margin-top: -50px; */
   text-align: center;
+  max-height: 10vh;
   font-size: 5.5vw;
   font-family: 'DM Serif Display', serif;
   color: #fc65a1;
@@ -198,6 +193,7 @@ body {
 #beryl-div {
   display: flex;
   position: relative;
+  height: 10vh;
   top: 14vh;
   right: 6.8vw;
 }
@@ -206,10 +202,14 @@ body {
 
 #wave {
   position: relative;
-  display: flex;
-  height: 5vh;
+  height: 6vh;
+  width: 50vw;
   top: 70vh;
-  right: 52vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 55vw;
 }
 
 
@@ -274,8 +274,6 @@ body {
 
   #hand {
     display: none;
-    position: relative;
-    max-height: 11vh;
   }
 
   #smol-div {
