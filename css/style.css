@@ -457,6 +457,16 @@ body {
   display: none;
 }
 
+#carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40vw;
+  height: auto;
+  border:rgba(249, 245, 241, 0.948) 1vw solid;
+}
+
 @media (min-width: 768px) {
   .about-second {
     height: 20vh;

@@ -12,3 +12,21 @@ let projectData = [
 export {
   projectData
 }
+
+let carousel = [
+  {
+    pic: './assets/it-is-js.png',
+
+    pic2: './assets/stuff.png',
+  
+    pic3: './assets/help.png',
+
+    pic4: './assets/bed.png',
+  
+    pic5: 'assets/ranch.png',
+  }
+]
+
+export {
+  carousel
+}
