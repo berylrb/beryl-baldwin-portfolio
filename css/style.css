@@ -380,7 +380,7 @@ body {
   position: relative;
   font-size: 7.2vh;
   left: 5vw;
-  top: 4vh;
+  top: 2vh;
   width: 90vw;
 }
 
@@ -422,7 +422,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 55vw;
+  width: 50vw;
   left: 15vw;
   top: 5vh;
   margin-bottom: 5vh;
@@ -434,7 +434,7 @@ body {
 
 
 #bio {
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   position: relative;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
@@ -630,11 +630,11 @@ body {
   } */
 
 
-@media (min-width: 825px) {
+@media (min-width: 825px) and (max-width: 1560px) and (min-height: 601px) {
   .about-second {
     height: 20vh;
   }
-  
+
   .section-2-bg {
     display: flex;
     position: relative;
@@ -651,6 +651,8 @@ body {
     position: relative;
     justify-content: center;
     align-items: center;
+    top: 10vh;
+    margin-top: 10vh;
   }
 
 
@@ -668,7 +670,7 @@ body {
     align-items: left;
     justify-content: left;
     max-width: 70vw;
-    top: 19vh;
+    top: 14vh;
     right: 45vw;
     }
 
@@ -678,14 +680,15 @@ body {
     flex-direction: row;
     align-items: left;
     justify-content: left;
-    width: 25vw;
-    top: 5vh;
-    left: -85vw;
+    width: 26vw;
+    top: 1vh;
+    left: -16vw;
     object-fit: contain;
     border-radius: 120px;
     }
 
-      
+
+
   .about-me {
     right: 90vw;
     display: flex;
@@ -695,9 +698,14 @@ body {
   .about-header {
     top: -30vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    height: 20vh;
+    /* width: 100vw; */
     padding-bottom: 5vh;
+    left: 60vw;
+    /* background-color: rgb(247, 243, 238, .3); */
   }
 
   .about-header #meet {
@@ -708,21 +716,22 @@ body {
     position: relative;
     left: 30px;
     font-size: 8vw;
-    top: 10px;
+    top: -5vh;
     }
 
   .about-header h2 {
-    text-align: left;
+    text-align: center;
     position: relative;
     display: flex;
     padding-right: 60px; 
     padding-left: 20px; 
+    /* padding-bottom: 10vh; */
     font-size: 2.8vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-weight: 00;
+    width: 60vw;
     left: 30px;
-    top: 30px;
+    top: -3vh;
     color: #ffffff;
     }
 
@@ -733,9 +742,10 @@ body {
       font-size: 1.7vw;
       font-weight: 500;
       text-align: left;
+      left: -22vw;
       display: inline-block;
-      width: 50vw;
-      top: 5vh;
+      width: 45vw;
+      top: 1vh;
       margin-left: 8vw;
     }
 
