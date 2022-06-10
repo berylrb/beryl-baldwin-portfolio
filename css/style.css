@@ -213,7 +213,12 @@ body {
   background-color:#ff9ec5;
   font-family: 'Montserrat', sans-serif;
   color:#525252;
+  border: none;
   
+}
+
+#wave:focus {
+  outline: 0;
 }
 
 #wave:hover {

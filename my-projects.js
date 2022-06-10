@@ -15,15 +15,15 @@ export {
 
 let carousel = [
   {
-    pic: './assets/it-is-js.png',
+    pic: './assets/carousel-pics/it-is-js.png',
 
-    pic2: './assets/stuff.png',
+    pic2: './assets/carousel-pics/stuff.png',
   
-    pic3: './assets/help.png',
+    pic3: './assets/carousel-pics/help.png',
 
-    pic4: './assets/bed.png',
+    pic4: './assets/carousel-pics/bed.png',
   
-    pic5: 'assets/ranch.png',
+    pic5: 'assets/carousel-pics/ranch.png',
   }
 ]
 
