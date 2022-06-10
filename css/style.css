@@ -786,12 +786,12 @@ form {
 
 .btn-submit {
   width: 50vw;
-  height: 4vh;
+  height: 5vh;
   background-color:#88fce1;
   color:#684ff6;
   margin-top: 13px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   /* border: #f7f3ee 2px solid;  */
   transition-duration: .2s;
 }
