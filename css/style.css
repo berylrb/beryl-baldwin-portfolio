@@ -94,7 +94,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(249, 245, 241, 0.948);
-  min-height: 40vh;
+  min-height: 30vh;
   min-width: 48vw;
   width: min-content;
   border: 1.3vmin solid;
@@ -143,7 +143,7 @@ body {
   position: relative;
   max-height: 11vh;
   top: 6.1vh;
-  left: 16vw;
+  left: 19vw;
 }
 
 #hi, #beryl {
@@ -167,7 +167,8 @@ body {
 #hi {
   position: relative;
   font-size: 6vw;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   /* margin-bottom: 30px; */
   color: #664bff;
   text-align: left;
@@ -178,15 +179,16 @@ body {
   display: flex;
   height: 5vh;
   top: 8.5vh;
-  left: 15vw;
+  left: 17vw;
 }
 
 #beryl {
   position: relative;
   text-align: center;
-  max-height: 10vh;
+  width: 35vw;
   font-size: 5.5vw;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   color: #fc65a1;
   padding: 30px;
 }
@@ -195,7 +197,7 @@ body {
   display: flex;
   position: relative;
   height: 10vh;
-  top: 14vh;
+  top: 16vh;
   right: 6.8vw;
 }
 
@@ -246,7 +248,7 @@ body {
   #hi {
     position: relative;
     font-size: 5vh;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
     color: #664bff;
     text-align: left;
@@ -260,7 +262,7 @@ body {
     font-size: 7vh;
     margin-top: -40px;
     text-align: center; 
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fc65a1;
     font-size: 5vh;
     right: 3.9vw;
@@ -877,7 +879,8 @@ body {
   }
 
   .about-header #meet {
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Montserrat', sans-serif;
+
     color: #096464;
     display: flex;
     padding-left: 20px;
