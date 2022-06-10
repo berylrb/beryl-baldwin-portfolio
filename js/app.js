@@ -24,6 +24,24 @@
 
 // invertHex('00FF00');
 
+const host = "http://127.0.0.1:5500/"
+
+// const ff = new Freezeframe({
+//   trigger: false
+// });
+// ff.start();
+
+// if (window.location.href == host + 'index.html') {
+// const three = document.querySelector("#three-items")
+// const handDiv = document.querySelector("#hand-div")
+// three.addEventListener('mouseover', hand)
+
+
+
+function hand (evt) {
+  handDiv.innerHTML = '<img id="hand2" src= "./assets/hand-ani.png">'
+  console.log('is this working')
+}
 
 
 
@@ -32,7 +50,7 @@ import { projectData } from "../my-projects.js"
 
 
 
-
+if (window.location.href == host + 'projects.html') {
 const cardContainer = document.getElementById('card-container')
 
 let projectMarkup = projectData.map(project => 
@@ -49,7 +67,10 @@ let projectMarkup = projectData.map(project =>
 `
   ).join('')
 
+
+
   cardContainer.innerHTML = projectMarkup
+}
 
 
 
