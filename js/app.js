@@ -33,14 +33,22 @@ const host = "http://127.0.0.1:5500/"
 
 // if (window.location.href == host + 'index.html') {
 // const three = document.querySelector("#three-items")
-// const handDiv = document.querySelector("#hand-div")
-// three.addEventListener('mouseover', hand)
 
+if (window.location.href == host + 'index.html') {
+const smolDiv = document.querySelector('#smol-div')
+const handDiv = document.querySelector("#hand-div")
+const hiBttn = document.querySelector('#wave')
 
+hiBttn.addEventListener('click', startWave)
+smolDiv.addEventListener('mouseover', stopWave)
 
-function hand (evt) {
-  handDiv.innerHTML = '<img id="hand2" src= "./assets/hand-ani.png">'
-  console.log('is this working')
+function startWave(evt) {
+  handDiv.innerHTML = '<img id="hand" src= "./assets/hand-ani.png">'
+}
+
+function stopWave(evt) {
+    handDiv.innerHTML = '<img id="hand" src= "./assets/hand-still.png">'
+  }
 }
 
 
