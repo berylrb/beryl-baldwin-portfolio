@@ -128,4 +128,4 @@ let carouselMarkup = carousel.map(frame =>
 carouselContainer.innerHTML = carouselMarkup
 
 }
-carouselContainer.setAttribute('data-bs-interval', false)
+
