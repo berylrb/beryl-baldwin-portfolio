@@ -126,6 +126,5 @@ let carouselMarkup = carousel.map(frame =>
 ).join('')
 
 carouselContainer.innerHTML = carouselMarkup
-
 }
 
