@@ -77,6 +77,7 @@ Some elements of this protfolio were inspired by and sourced from the great work
 | David, Ben, Ian, Hunter, Joe | thank u sm for all the help 🥺 | u r all iceman 2 me |
 |Bootstrap Forms| Bootstrap custom contact form generator | <a href="https://bootstrapformbuilder.com/" target="_blank">Bootstrap Forms</a> |
 | <a href="https://github.com/hyweljohnllewellyn" target="_blank">Hywel Llewelyn</a> | form integration blog post (very helpful!) | <a href="https://www.hywel.me/sites/2021/11/15/website-page-with-contact-form-using-html-github-and-netlify.html" target="_blank">Hywel's post</a> |
+| Hunter Long   |  Submit button design input on the contact form | <a href="https://github.com/whlong1">Hunter's GitHub</a> |
 
 
 [Back to Top](#readme-table-of-contents)

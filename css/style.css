@@ -577,7 +577,7 @@ body {
 
   .about-header #meet {
     font-family: 'DM Serif Display', serif;
-    color: #ffffff;
+    color: #096464;
     display: flex;
     padding-left: 20px;
     position: relative;
@@ -598,7 +598,7 @@ body {
     font-weight: 00;
     left: 30px;
     top: 30px;
-    color: #096464;
+    color: #ffffff;
     }
 
   
@@ -657,7 +657,7 @@ body {
     font-size: 4vh;
     text-align: center;
     margin-top: -12vh;
-    margin-bottom: 13vh;
+    margin-bottom: -3vh;
     top: 4vh;
     left: 22vw;
     color: #ffffff;
