@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(253, 246, 239, 0.948);
+  background-color: rgba(249, 245, 241, 0.948);
   min-height: 40vh;
   min-width: 48vw;
   border: 1.3vmin solid;
@@ -134,7 +134,7 @@ body {
 #hi, #beryl {
   top: 10px;
   position: relative;
-  font-size: 8vw !important;
+  font-size: 5vw !important;
 }
 
 #beryl {
@@ -238,12 +238,12 @@ body {
 
 .about-header h1 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Serif Display', serif;
   color: #ffffff;
   display: flex;
   position: relative;
   font-size: 7.2vh;
-  left: 2vw;
+  left: 17vw;
   top: 4vh;
   width: 90vw;
 }
@@ -252,13 +252,13 @@ body {
   text-align: center;
   position: relative;
   display: flex;
-  font-size: 3vh;
-  width: 90vw;
-  font-family: 'DM Serif Display', serif;
-  font-weight: 600;
-  left: 2vw;
-  top: 3vh;
-  color: #654cf5;
+  font-size: 2.2vh;
+  width: 75vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  left: 8vw;
+  top: 4.3vh;
+  color: #15868b;
 }
 
 
@@ -340,20 +340,28 @@ body {
 
 
 .about-second {
-  background-color: #ffbfdc;
-  max-height: 400px;
+  max-height: 10vh;
 }
-
-
 
 .section-2-bg {
-  display: flex;
-  position: relative;
-  max-width: 100vw;
+  display: none;
 }
 
-
 @media (min-width: 768px) {
+  .about-second {
+    height: 10vh;
+  }
+  
+  .section-2-bg {
+    display: flex;
+    position: relative;
+    max-width: 100vw;
+    left: 19vw;
+    width: 75vw;
+    top: -40vh;
+  }
+  
+
   .about-first {
     top: 3vh;
     position: relative;
@@ -416,7 +424,6 @@ body {
     }
 
   
-  
 
   #bio {
       position: relative;
@@ -431,8 +438,8 @@ body {
   }
 
 
-/* -------------------------------------------------------------------------
-WORK */
+/* -------------------------------------------------------------------
+WORK  */
 
 #card-container {
   margin-top: 110px;
@@ -522,6 +529,7 @@ WORK ICONS*/
 }
 
 .skills-text p {
+  
   font-size: 1.8vh;
 }
 
@@ -619,6 +627,7 @@ WORK ICONS*/
 /* ---------------------------------------------------
 CONTACT PAGE */
 
+
 .contact-text {
   display: flex;
   flex-direction: column;
@@ -632,14 +641,13 @@ CONTACT PAGE */
   text-align: center;
   color: #f7f3ee;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
 }
 
-
-#contact-subhead h4{
+/* #contact-subhead h4{
   font-size: 2.6vh;
   width: 65vw;
-}
+} */
+
 
 
 form {
@@ -666,24 +674,27 @@ form {
 
 .btn-submit {
   width: 50vw;
-  background-color:#fc79ae;
-  color:#f7f3ee;
-  margin-top: 10px;
+  height: 4vh;
+  background-color:#88fce1;
+  color:#684ff6;
+  margin-top: 13px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  border: #f7f3ee 2px solid; 
-  transition-duration: .4s;
+  font-weight: 600;
+  /* border: #f7f3ee 2px solid;  */
+  transition-duration: .2s;
 }
 
 .btn-submit:hover {
-  background-color: #f8bbd3;
-  color:#fd4d93;
+  /* background-color: #d0fdf2; */
+  transform: scale(1.08);
+  /* background-color: #dcbbf8; */
+  /* color:#fd4d93; */
 }
 
 
 
 .contact-body {
-  background-color: #7159f9;
+  background-color: #7f69ff;
 }
 
 .contact-wrapper {
@@ -693,12 +704,12 @@ form {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #7159f9;
+  background-color: #7f69ff;
 }
 
 
 .contact-links {
-  background-color: #7159f9;
+  background-color: #7f69ff;
   /* margin-left: 80px; */
   max-width: 60vw;
   max-height: 10vh;
@@ -712,9 +723,9 @@ form {
 }
 
 
+
 .contact-links i {
-  padding: 30px;
-  padding-bottom: 30px;
+  padding: 0 5px 30px 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -722,24 +733,42 @@ form {
   justify-content: center;
   width: 50%;
   height: 20vh;
-  font-size: 9vh;
+  font-size: 5vh;
   text-align: center;
-  background-color: #7159f9;
+  background-color: #7f69ff;
   color: #FFFFFF;
   margin-left: 30px;
 }
 
+.contact-links i:hover {
+  /* color: #a1fde7; */
+  transform: scale(1.09);
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+}
+
+
+
+
 @media (min-width: 768px) {
 
+  .contact h2 {
+    font-weight: 600;
+  }
 
-
-  #contact-subhead h4{
-    font-size: 1vh;
-    width: 65vw;
+  .contact h4{
+    margin-top: 67px;
+    max-width: 70vw;
+    text-align: center;
+    color: #f7f3ee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
 
   .contact-links {
-    background-color: #7159f9;
+    background-color: #7f69ff;
     max-width: 60vw;
     display: flex;
     flex-wrap: wrap;
@@ -752,6 +781,7 @@ form {
   
   
   .contact-links i {
+    padding: 0 15px 0 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -759,10 +789,11 @@ form {
     justify-content: center;
     font-size: 7vh;
     text-align: center;
-    background-color: #7159f9;
+    background-color: #7f69ff;
     color: #FFFFFF;
     margin-left: 30px;
   }
+
 
 
   .contact-wrapper {
@@ -772,7 +803,7 @@ form {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #7159f9;
+    background-color: #7f69ff;
 
   }
 } 
