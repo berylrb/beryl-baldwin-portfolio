@@ -235,7 +235,7 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  
+
 
   #hi, #beryl {
     top: 10px;
@@ -503,6 +503,7 @@ body {
   font-size: 3.4vh;
   text-align: center;
   margin-bottom: 5vh;
+  color: #ffffff;
 }
 
 #carousel-p {
@@ -620,13 +621,14 @@ body {
       justify-content: center;
       max-width: 35vw;
       height: auto;
-      margin-left: 56vw;
-      margin-top: 25vh;
+      margin-left: 51vw;
+      margin-top: 9vh;
       border:rgba(249, 245, 241, 0.948) 1vw solid;
     }
     
     #carousel-wrapper {
-      left: 30vw;
+      margin-right: 10vw;
+      left: 25vw;
     }
 
 
@@ -636,11 +638,11 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 30vw;
+      width: 25vw;
       background-color: rgb(247, 243, 238, .4);
       position: relative;
-      top: -109vh;
-      left: 9vw;
+      top: -100vh;
+      left: 19vw;
       font-family: 'Montserrat', sans-serif;
       font-weight: 500;
       padding: 40px;
@@ -652,11 +654,12 @@ body {
     display: flex;
     position: relative;
     font-family: 'DM Serif Display', serif;
-    font-size: 5.4vh;
+    font-size: 4vh;
     text-align: center;
-    margin-top: -10vh;
-    top: 18vh;
-    left: 16vw;
+    margin-top: -12vh;
+    margin-bottom: 13vh;
+    top: 4vh;
+    left: 22vw;
     color: #ffffff;
   }
   }
