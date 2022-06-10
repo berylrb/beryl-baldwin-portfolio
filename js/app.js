@@ -34,7 +34,6 @@ const host = "http://127.0.0.1:5500/"
 // if (window.location.href == host + 'index.html') {
 // const three = document.querySelector("#three-items")
 
-if (window.location.href == host + 'index.html') {
 const smolDiv = document.querySelector('#smol-div')
 const handDiv = document.querySelector("#hand-div")
 const hiBttn = document.querySelector('#wave')
@@ -49,7 +48,6 @@ function startWave(evt) {
 function stopWave(evt) {
     handDiv.innerHTML = '<img id="hand" src= "./assets/hand-still.png">'
   }
-}
 
 
 
