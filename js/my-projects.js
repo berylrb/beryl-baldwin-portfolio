@@ -6,6 +6,14 @@ let projectData = [
     pic: 'assets/project-pics/tic-tac-grow.png',
     github: 'https://github.com/berylrb/ttt-weekend',
     description: 'A fun take on the classic game Tic-Tac-Toe. Built using JavaScript, HTML, & CSS'
+  },
+
+  {
+    title: 'Queue',
+    launch: 'https://beryl-queue.herokuapp.com/',
+    pic: 'assets/project-pics/queue-ss.png',
+    github: 'https://github.com/berylrb/favorite-shows',
+    description: 'An app that helps you track your favorite shows and find your next favorite bingeable show.'
   }
 ]
 
