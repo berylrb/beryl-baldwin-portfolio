@@ -20,7 +20,7 @@ let projectData = [
     launch: 'https://newt-activity.netlify.app/',
     pic: 'assets/project-pics/newt-landing-page-mockup.png',
     github: 'https://github.com/berylrb/newt-front-end',
-    description: "Objects at rest stay at rest- let's change that! This MERN stack application will help users discover more about themselves, their peers, and their community by providing them with inspiring ideas to get up, get moving, and try something new."
+    description: "Objects at rest stay at rest- let's change that! This MERN stack application provides users with inspiring ideas to get up, get moving, and try something new."
   }
 
 ]
