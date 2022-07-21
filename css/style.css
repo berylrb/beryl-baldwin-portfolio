@@ -923,9 +923,9 @@ body {
 
     #carousel-container {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
       max-width: 30vw;
       height: auto;
       margin-left: 51vw;
@@ -973,7 +973,7 @@ WORK  */
 #card-container {
   margin-top: 110px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
