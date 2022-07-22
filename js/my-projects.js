@@ -1,13 +1,12 @@
 
 let projectData = [
   {
-    title: 'Tic-Tac-Grow',
-    launch: 'https://beryl-tic-tac-toe.netlify.app/',
-    pic: 'assets/project-pics/tic-tac-grow.png',
-    github: 'https://github.com/berylrb/ttt-weekend',
-    description: 'A fun take on the classic game Tic-Tac-Toe. Built using JavaScript, HTML, & CSS'
+    title: 'Newt',
+    launch: 'https://newt-activity.netlify.app/',
+    pic: 'assets/project-pics/newt-landing-page-mockup.png',
+    github: 'https://github.com/berylrb/newt-front-end',
+    description: "This MERN stack application provides users with inspiring ideas to try something new."
   },
-
   {
     title: 'Queue',
     launch: 'https://beryl-queue.herokuapp.com/',
@@ -16,12 +15,13 @@ let projectData = [
     description: 'An app that helps you track your favorite shows and find your next favorite bingeable show.'
   },
   {
-    title: 'Newt',
-    launch: 'https://newt-activity.netlify.app/',
-    pic: 'assets/project-pics/newt-landing-page-mockup.png',
-    github: 'https://github.com/berylrb/newt-front-end',
-    description: "This MERN stack application provides users with inspiring ideas to try something new."
+    title: 'Tic-Tac-Grow',
+    launch: 'https://beryl-tic-tac-toe.netlify.app/',
+    pic: 'assets/project-pics/tic-tac-grow.png',
+    github: 'https://github.com/berylrb/ttt-weekend',
+    description: 'A fun take on the classic game Tic-Tac-Toe. Built using JavaScript, HTML, & CSS'
   }
+  
 
 ]
 
