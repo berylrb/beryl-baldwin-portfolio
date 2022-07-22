@@ -753,7 +753,7 @@ body {
   .top-half-about {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -763,7 +763,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
   }
 
   .about {
@@ -771,7 +771,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
     padding: 40px;
     }
 
@@ -793,6 +793,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 20px;
   }
   .about-header {
     display: flex;
