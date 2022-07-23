@@ -12,7 +12,7 @@ let projectData = [
     launch: 'https://beryl-queue.herokuapp.com/',
     pic: 'assets/project-pics/queue-ss.png',
     github: 'https://github.com/berylrb/favorite-shows',
-    description: 'An app that helps you track your favorite shows and find your next favorite bingeable show.'
+    description: 'An app that helps you track your favorite shows and see what others are watching.'
   },
   {
     title: 'Tic-Tac-Grow',

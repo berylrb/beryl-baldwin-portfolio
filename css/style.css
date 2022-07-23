@@ -344,7 +344,7 @@ WORK  */
 .card-text {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 .btn-primary {
