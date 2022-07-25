@@ -79,28 +79,7 @@
 #hamburger-nav input:checked ~ #hamburger-links { display: block; }
 }
 
-/* hamburger from here "https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/" */
 
-body {
-  background-color: #f7f3ee;
-
-}
-
-#dropdownMenuLink {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  color: #7b64fc;
-}
-
-.dropdown-item {
-  background-color: #8c78ff;
-}
-
-.dropdown-item:hover {
-  background-color: #7b64fc;
-  transform: none;
-}
 
 
 .home-elements {
