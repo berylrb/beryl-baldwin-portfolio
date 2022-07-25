@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
 
 }
 
@@ -22,7 +22,7 @@
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3em;
   z-index: 999;
 }
 
@@ -34,6 +34,19 @@
 #hamburger {
   display: none;
 }
+
+.dropdown-toggle {
+  padding: 0;
+}
+
+.dropdown-toggle:hover {
+  border: none;
+}
+
+.dropdown-toggle:focus {
+  border: none;
+}
+
 
 .home-elements {
   display: flex;
