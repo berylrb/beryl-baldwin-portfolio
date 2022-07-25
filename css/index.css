@@ -1,0 +1,243 @@
+
+#hamburger-nav {
+  background: #8c78ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+
+}
+
+#hamburger-links {
+  display: flex;
+}
+
+#hamburger-links a {
+  flex-grow: 1;
+  flex-direction: row;
+  margin: 0 40px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 999;
+}
+
+#hamburger-links a:hover {
+  transform: scale(1.2);
+}
+
+#hamburger-nav label,
+#hamburger {
+  display: none;
+}
+
+.home-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("./../assets/smallblobs.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.70;
+}
+
+
+.smol-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(249, 245, 241, 0.948);
+  width: 16em;
+  height: 17em;
+  padding: 30px;
+  border: 1.3vmin solid;
+  --angle: 0deg;
+  border-image: conic-gradient(from var(--angle), #8874f8, #e0c3ea, #ff9ec5, #ff65ac, #ff4a48, #ffa22c, #ff4a48, #ff65ac, #e0c3ea, #8874f8, #2abeb3, #8874f8) 1;
+	animation: 10s rotate linear infinite;
+}
+
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+}
+
+.two-things {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.hand-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hand {
+  display: flex;
+  position: relative;
+  bottom: 35px;
+  height: 6em;
+  right: 50px;
+}
+
+
+.hi {
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  /* margin-bottom: 30px; */
+  color: #664bff;
+  text-align: center;
+  width: 20%;
+  margin: 0 0 0 40px;
+}
+
+.beryl-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+
+.beryl {
+  text-align: left;
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #fc65a1;
+  margin: 0 0 0 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 820px) {
+
+  .about-body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    background-color: #ff9ed7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #hamburger-nav {
+    width: 100%;
+    display: flex;
+  }
+
+
+  .top-half-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 50px;
+  }
+
+  .meet {
+    color: #ffffff;
+    font-size: 3.5em;
+  }
+
+
+  .about {
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+
+  .headshot {
+    width: 50%;
+    border-radius: 50%;
+    opacity: .92;
+    border: 3px rgb(250, 247, 243, .8) solid;
+  }
+
+  .about-me-p {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  #hamburger-links a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #8c78ff;
+
+  }
+
+  #hamburger-nav label {
+    display: inline-block;
+    color: white;
+    background: #8c78ff;
+    font-style: normal;
+    font-size: 1.7em;
+    padding: 10px;
+    width: 150vw;
+  }
+
+  #hamburger-links {
+    display: none;
+  }
+
+  #hamburger-nav input:checked~#hamburger-links {
+    display: block;
+  }
+}
+
+
