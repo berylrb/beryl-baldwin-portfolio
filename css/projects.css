@@ -116,6 +116,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   color: #525252;
   margin: 20px 0 0 0;
 }
@@ -164,7 +165,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 100%;
   /* align-items: flex-end; */
 }
