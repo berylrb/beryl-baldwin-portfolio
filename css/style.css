@@ -22,27 +22,61 @@
 
 #hamburger-nav label, #hamburger { display: none; }
 
+#hamburger-nav {
+  background: #8c78ff;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center;
+  padding: 20px;
+
+}
+
+#hamburger-links { display: flex; }
+#hamburger-links a {
+  flex-grow: 1;
+  flex-direction: row;
+  margin: 0 40px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  z-index: 999;
+}
+
+#hamburger-links a:hover { transform: scale(1.2); }
+
+#hamburger-nav label, #hamburger { display: none; }
+
 @media screen and (max-width: 820px){
-  #hamburger-links a {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-top: 1px solid #8c78ff;
+#hamburger-nav {
+  width: 100%;
+  margin: 0 0 50px 0;
+  display: flex;
+}
 
-  }
+#hamburger-links a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #8c78ff;
 
-  #hamburger-nav label { 
-    display: inline-block; 
-    color: white;
-    background: #8c78ff;
-    font-style: normal;
-    font-size: 1.7em;
-    padding: 10px;
-    width: 150vw;
-  }
+}
 
-  #hamburger-links { display: none; }
-  #hamburger-nav input:checked ~ #hamburger-links { display: block; }
+#hamburger-nav label { 
+  display: inline-block; 
+  color: white;
+  background: #8c78ff;
+  font-style: normal;
+  font-size: 1.7em;
+  padding: 10px;
+  width: 150vw;
+}
+
+#hamburger-links { display: none; }
+#hamburger-nav input:checked ~ #hamburger-links { display: block; }
 }
 
 /* hamburger from here "https://code-boxx.com/simple-responsive-pure-css-hamburger-menu/" */
