@@ -119,17 +119,18 @@ body {
   justify-content: flex-end;
   color: #525252;
   margin: 20px 0 0 0;
+
 }
 
 .soft {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
+  font-size: 2.3em;
   color:rgba(253, 251, 248, 0.95);
   text-align: center;
 }
 
 .skills-text p {
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 .toolbox {
@@ -171,23 +172,24 @@ body {
 }
 
 .box-icon {
-  margin: 5px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 20%;
   height: 150px;
-  font-size: 3em;
+  font-size: 4em;
   color: #f7f3ee;
 }
 
 .box-icon p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: .3em;
   color: #f7f3ee;
   display: flex;
   margin-top: .5em;
+  font-weight: 500;
 }
 
 
