@@ -1,19 +1,27 @@
 
 let projectData = [
   {
-    title: 'Newt',
-    launch: 'https://newt-activity.netlify.app/',
-    pic: 'assets/project-pics/newt-landing-page-mockup.png',
-    github: 'https://github.com/berylrb/newt-front-end',
-    description: "This MERN stack application provides users with inspiring ideas to try something new."
-  },
-  {
     title: 'Queue',
     launch: 'https://beryl-queue.herokuapp.com/',
     pic: 'assets/project-pics/queue-ss.png',
     github: 'https://github.com/berylrb/favorite-shows',
     description: 'An app that helps you track your favorite shows and see what others are watching.'
   },
+  {
+    title: 'Newt',
+    launch: 'https://newt-activity.netlify.app/',
+    pic: 'assets/project-pics/newt-landing-page-mockup.png',
+    github: 'https://github.com/berylrb/newt-front-end',
+    description: "This API-incorporated MERN stack application provides users with ideas to try something new."
+  },
+  {
+    title: 're/mind',
+    launch: 'https://remind-jbs.netlify.app/',
+    pic: 'assets/project-pics/remind-ss.png',
+    github: 'https://github.com/ssemlitz/jbs-hackathon-front-end',
+    description: 'A MERN stack mindfulness app designed to help users develop a positive mindset.'
+  },
+  
   {
     title: 'Tic-Tac-Grow',
     launch: 'https://beryl-tic-tac-toe.netlify.app/',

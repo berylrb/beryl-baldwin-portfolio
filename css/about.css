@@ -51,6 +51,10 @@ body {
   border: none;
 }
 
+.dropdown-item {
+  background-color: #8c78ff;
+}
+
 .about-body {
   font-family: 'Montserrat', sans-serif;
   width: 100vw;
