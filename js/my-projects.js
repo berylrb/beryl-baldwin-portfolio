@@ -5,14 +5,14 @@ let projectData = [
     launch: 'https://beryl-queue.herokuapp.com/',
     pic: 'assets/project-pics/queue-ss.png',
     github: 'https://github.com/berylrb/favorite-shows',
-    description: 'An app that helps you track your favorite shows and see what others are watching.'
+    description: 'A MEN stack app with API integration that helps you track your favorite shows and see what others are watching.'
   },
   {
     title: 'Newt',
     launch: 'https://newt-activity.netlify.app/',
     pic: 'assets/project-pics/newt-landing-page-mockup.png',
     github: 'https://github.com/berylrb/newt-front-end',
-    description: "This API-incorporated MERN stack application provides users with ideas to try something new."
+    description: "This API-integrated MERN stack application provides users with ideas to try something new."
   },
   {
     title: 're/mind',
