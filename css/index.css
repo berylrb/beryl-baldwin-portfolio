@@ -22,7 +22,7 @@
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   z-index: 999;
 }
 
@@ -35,6 +35,8 @@
   display: none;
 }
 
+
+
 .dropdown-toggle {
   padding: 0;
 }
@@ -46,6 +48,27 @@
 .dropdown-toggle:focus {
   border: none;
 }
+
+.dropdown-menu {
+  background-color: #8c78ff;
+
+}
+
+.dropdown-menu:hover {
+  background-color: #8c78ff;
+  ;
+}
+
+.dropdown-item {
+  width: 10%;
+  font-size: .4em;
+  background-color: #8c78ff;
+}
+
+.dropdown-item:hover {
+  background-color: #8c78ff;
+}
+
 
 
 .home-elements {

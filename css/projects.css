@@ -25,7 +25,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   z-index: 999;
 }
 
@@ -48,6 +48,26 @@ body {
 
 .dropdown-toggle:focus {
   border: none;
+}
+
+.dropdown-menu {
+  background-color: #6d90d6;
+
+}
+
+.dropdown-menu:hover {
+  background-color: #6d90d6;
+  ;
+}
+
+.dropdown-item {
+  width: 10%;
+  font-size: .4em;
+  background-color: #6d90d6;
+}
+
+.dropdown-item:hover {
+  background-color: #6d90d6;
 }
 
 
