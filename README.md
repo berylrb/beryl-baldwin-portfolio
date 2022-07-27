@@ -33,9 +33,12 @@ Additionally, check out the trello board used for planning this portfolio app at
 <h3>Here's a sneak peek:</h3>
 <img align="center" src="https://i.ibb.co/5svB4fw/portfolio-landing.png">
 <br>
-<img align="center" src="https://i.ibb.co/YjP91MD/portfolio-work.png">
 </div>
+
+<div align="center">
+<img align="center" src="https://i.ibb.co/YjP91MD/portfolio-work.png">
 <br>
+</div>
 <br>
 
 ## Technologies Used:
