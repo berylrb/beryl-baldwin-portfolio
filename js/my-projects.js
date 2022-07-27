@@ -19,7 +19,7 @@ let projectData = [
     launch: 'https://remind-jbs.netlify.app/',
     pic: 'assets/project-pics/remind-ss.png',
     github: 'https://github.com/ssemlitz/jbs-hackathon-front-end',
-    description: 'A MERN stack mindfulness app designed to help users develop a positive mindset.'
+    description: 'A MERN stack mindfulness app designed to help users develop a positive mindset. This small team project was built in a day for a hackathon.'
   },
   
   {

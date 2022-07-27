@@ -44,6 +44,18 @@
   ;
 }
 
+.dropdown-toggle {
+  padding: 0;
+}
+
+.dropdown-toggle:hover {
+  border: none;
+}
+
+.dropdown-toggle:focus {
+  border: none;
+}
+
 .dropdown-item {
   width: 10%;
   font-size: .4em;
@@ -178,7 +190,7 @@ form {
 
 @media screen and (max-width: 820px) {
   #hamburger-nav {
-    width: 100%;
+    width: 100vw;
     display: flex;
   }
 
