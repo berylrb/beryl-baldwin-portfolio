@@ -15,6 +15,13 @@ let projectData = [
     description: "This API-integrated MERN stack application provides users with ideas to try something new."
   },
   {
+    title: 'Portfolio',
+    launch: 'https://beryl-baldwin-portfolio.netlify.app/',
+    pic: 'assets/project-pics/portfolioss.png',
+    github: 'https://github.com/berylrb/beryl-baldwin-portfolio',
+    description: "The site you're on right now! Built using HTML, JavaScript, and CSS."
+  },
+  {
     title: 're/mind',
     launch: 'https://remind-jbs.netlify.app/',
     pic: 'assets/project-pics/remind-ss.png',
