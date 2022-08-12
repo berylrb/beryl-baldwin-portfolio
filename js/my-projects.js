@@ -8,6 +8,13 @@ let projectData = [
     description: 'A MEN stack app with API integration that helps you track your favorite shows and see what others are watching.'
   },
   {
+    title: 'beba',
+    launch: 'https://beryl-beba.herokuapp.com/',
+    pic: 'assets/project-pics/beba-home.png',
+    github: 'https://github.com/berylrb/beba',
+    description: 'A simple Django / Python app designed to help users collect and practice behavioral interview questions.'
+  },
+  {
     title: 'Newt',
     launch: 'https://newt-activity.netlify.app/',
     pic: 'assets/project-pics/newt-landing-page-mockup.png',
