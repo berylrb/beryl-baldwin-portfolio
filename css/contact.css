@@ -1,5 +1,5 @@
 #hamburger-nav {
-  background: #7158fd;
+  background: #654bfb;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -35,12 +35,12 @@
 }
 
 .dropdown-menu {
-  background-color: #7158fd;
+  background-color: #654bfb;
 
 }
 
 .dropdown-menu:hover {
-  background-color: #7158fd;
+  background-color: #654bfb;
   ;
 }
 
@@ -59,11 +59,11 @@
 .dropdown-item {
   width: 10%;
   font-size: .4em;
-  background-color: #7158fd;
+  background-color: #654bfb;
 }
 
 .dropdown-item:hover {
-  background-color: #7158fd;
+  background-color: #654bfb;
 }
 
 
@@ -113,7 +113,7 @@ form {
   width: 50vw;
   height: 5vh;
   background-color: #88fce1;
-  color: #684ff6;
+  color: #654bfb;
   margin-top: 13px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -208,7 +208,7 @@ form {
   #hamburger-nav label {
     display: inline-block;
     color: white;
-    background: #7158fd;
+    background: #654bfb;
     font-style: normal;
     font-size: 1.5em;
     padding: 5px;
