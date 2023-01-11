@@ -2,7 +2,7 @@
 let projectData = [
   {
     title: 'Queue',
-    launch: 'https://beryl-queue.herokuapp.com/',
+    launch: 'https://queue-g0wy.onrender.com/',
     pic: 'assets/project-pics/queue-ss.png',
     github: 'https://github.com/berylrb/favorite-shows',
     description: 'A MEN stack app with API integration that helps you track your favorite shows and see what others are watching.'
